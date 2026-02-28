@@ -19,7 +19,7 @@ cd Projeto_IA
 ### 2. Crie um ambiente virtual (recomendado)
 
 ```bash
-python -m venv venv
+python -m venv venv --without-pip
 ```
 
 ### 3. Ative o ambiente virtual
@@ -27,6 +27,7 @@ python -m venv venv
 **Windows:**
 ```bash
 venv\Scripts\activate
+python -m ensurepip --upgrade
 ```
 
 **Linux/Mac:**
@@ -39,7 +40,10 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
+### Instalar deepface, tensorflow e tf_keras"
+```bash
+pip install deepface opencv-python tensorflow tf-keras
+```
 ### Instalar tf_keras"
 
 ```bash
