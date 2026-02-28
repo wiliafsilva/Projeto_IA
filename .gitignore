@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Ambiente Virtual
+venv/
+env/
+ENV/
+.venv
+
+# DeepFace - Modelos baixados
+.deepface/
+*.h5
+*.pb
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs e Databases
+*.log
+*.sqlite
+*.db
+
+# Arquivos de teste
+test_*.py
+*_test.py
