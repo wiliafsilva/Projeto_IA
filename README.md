@@ -44,12 +44,6 @@ pip install -r requirements.txt
 ```bash
 pip install deepface opencv-python tensorflow tf-keras
 ```
-### Instalar tf_keras"
-
-```bash
-pip install tf-keras
-```
-
 ## 🎮 Como Usar
 
 ### Detecção de Emoções (DeepFace)
@@ -58,6 +52,8 @@ Execute o programa principal:
 
 ```bash
 python deep.py
+python emotions_only.py
+python recognition_only.py
 ```
 
 **Recursos:**
@@ -75,10 +71,11 @@ python deep.py
 ## 📁 Estrutura do Projeto
 
 ```
-├── deep.py                    # Detector de emoções principal (DeepFace)
-├── detector_offline.py        # Detector de faces offline (OpenCV)
-├── download_model.py          # Script para download manual dos modelos
+├── deep.py                    # Detector completo: emoções + gênero + reconhecimento facial
+├── emotions_only.py           # Detector de emoções e gênero (sem reconhecimento)
+├── recognition_only.py        # Reconhecimento facial por embeddings (sem emoções)
 ├── requirements.txt           # Dependências do projeto
+├── known_faces/               # Fotos de pessoas conhecidas (NomePessoa.jpg)
 └── README.md                  # Este arquivo
 ```
 
