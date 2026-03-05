@@ -64,6 +64,7 @@ python recognition_only.py
 - ✅ Mostra a emoção dominante (em verde)
 - ✅ Mostra o gênero detectado (em amarelo)
 - ✅ Exibe todas as emoções com porcentagens
+- ✅ Reconhecimento facial a partir de uma foto modelo em tempo real
 
 **Para sair:** Pressione **Q**
 
