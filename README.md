@@ -93,5 +93,5 @@ python recognition_only.py
 Este projeto usa bibliotecas open-source. Consulte as licenças individuais:
 - [DeepFace](https://github.com/serengil/deepface)
 - [OpenCV](https://opencv.org/license/)
-- [TensorFlow](https://github.com/tensorflow/tensorflow/blob/master/LICENSE)
+- [TensorFlow](https://github.com/serengil/tensorflow-101) ## Modelo treinado 
 
